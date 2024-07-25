@@ -1,4 +1,40 @@
-h1 {
-    display: inline;
-    padding-top: 100px;
-}
+.navbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .titulo-superior {
+    text-align: center;
+  }
+  
+  .fondo-barra {
+    background-color: #f2f2f2;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  a {
+    color: #888;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  a:hover {
+    background-color: #979595;
+    color: #f2f2f2;
+  }
+  
+  .lista-barra {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f2f2f2;
+    width: 100%; 
+    
+  }
+  
+

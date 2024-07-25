@@ -4,13 +4,11 @@ import '../src/App.css'
 import ItemListContainer from './components/ItemListContainer'
 
 function App() {
-  
-
   return (
-    <>
-      <NavBar/>
+    <div className="app-container">
+      <NavBar posicion="titulo-superior" />
       <ItemListContainer greeting={"Bienvenido cliente"} />
-    </>
+    </div>
   )
 }
 
